@@ -58,7 +58,8 @@ Select ONE Additional Feature to Add
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-      //Movie Question jQuery Code
+      
+      //========================Movie Question jQuery Code
       $("#movie-form").on("submit", function (event) {
         event.preventDefault();
 
@@ -67,12 +68,13 @@ Select ONE Additional Feature to Add
 
         if (answer === "movie1") {
           $("#movie-text").text("YESSSS!");
-        } else {
+        } 
+        else {
           $("#movie-text").text("Try Again!");
         }
       });
 
-      //Book Question jQuery Code
+      //=======================Book Question jQuery Code
       $("#book-form").on("submit", function (event) {
         event.preventDefault();
 
@@ -81,10 +83,12 @@ Select ONE Additional Feature to Add
 
         if (answer === "book1") {
           $("#book-text").text("YESSSS!");
-        } else {
+        } 
+        else {
           $("#book-text").text("Try Again!");
         }
       });
+      
     </script>
   </body>
 
